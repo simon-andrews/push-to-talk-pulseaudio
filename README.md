@@ -23,5 +23,5 @@ Run Make in the root directory of this repository. This will produce an executab
    * Workaround: hold space to stay unmuted while closing the program.
  * [ ] User is unmuted when program is first started even though they should be muted.
    * Workaround: mute and unmute every time you start the program to ensure that you're in the correct state.
- * Using system commands is pretty gross. I'd like to switch to PulseAudio's C library at some point.
+ * [ ] Using system commands is pretty gross. I'd like to switch to PulseAudio's C library at some point.
 

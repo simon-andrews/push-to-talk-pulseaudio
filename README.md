@@ -17,3 +17,11 @@ Run Make in the root directory of this repository. This will produce an executab
  2. Run `pacmd list-source-outputs`. Make note of the index of the output associated with the program you're interested in.
  3. Run `./ptt_pa [THAT INDEX]`.
  4. Press and hold the space key whenever you wish to unmute yourself.
+
+## Known problems and to-dos
+ * [ ] Closing the program while muted will leave the output muted.
+   * Workaround: hold space to stay unmuted while closing the program.
+ * [ ] User is unmuted when program is first started even though they should be muted.
+   * Workaround: mute and unmute every time you start the program to ensure that you're in the correct state.
+ * Using system commands is pretty gross. I'd like to switch to PulseAudio's C library at some point.
+
